@@ -10,7 +10,7 @@ let container = elements("div", "container", "", "");
 const h1 = elements("h1", "text-center", "tittle", "Countries Weather");
 const row = elements("div", "row", "", "");
 
-const result = fetch("https://restcountribdfes.com/v3.1/all");
+const result = fetch("https://restcountries.com/v3.1/all");
 result
   .then((data) => data.json())
   .then((ele) => {
